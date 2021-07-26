@@ -1,0 +1,10 @@
+    
+    header {
+        height: 50px;
+        background-color: rgba(44,62,80);
+    }
+    
+    [class^="col-"] {
+        height: 200px;
+        border: 1px solid black;
+    }
