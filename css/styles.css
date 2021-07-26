@@ -1,10 +1,60 @@
-    
     header {
         height: 50px;
         background-color: rgba(44,62,80);
     }
-    
-    [class^="col-"] {
-        height: 200px;
-        border: 1px solid black;
+
+    .jumbotron {
+        height: 400px;
+        background-color: rgba(26,188,156);
+        margin-bottom: 40px;
+    }
+
+    .portfolio_section div:not(:first-child) {
+        height: 300px;
+        border: 2px solid purple;
+        border-radius: 10px;
+        margin: 0 10px 30px 10px;
+    }
+
+    .portfolio_header {
+        height: 100px;
+    }
+
+    .portfolio_section [class^="col-"]:last-of-type {
+        margin-bottom: 60px;
+    }
+
+    .about_section {
+        height: 500px;
+        background-color: rgba(26,188,156);
+    }
+
+    .contact_section {
+        height: 400px;
+    }
+
+    .footer_top {
+        background-color: rgba(58,84,109);
+        height: 300px;
+    }
+
+    .footer_bottom {
+        background-color: rgba(44,62,80);
+        height: 50px;
+    }
+
+    .contact_section [class^="col-"] {   /*Sezione bordi colorati per distinguere quadrati*/
+        border: 2px solid purple;
+    }
+
+    .about_section [class^="col-"] {   
+        border: 2px solid purple;
+    }
+
+    .footer_top [class^="col-"] {
+        border: 2px solid purple;
+    }
+
+    .footer_bottom [class^="col-"] {
+        border: 2px solid purple;
     }
