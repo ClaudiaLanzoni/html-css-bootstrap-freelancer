@@ -43,8 +43,16 @@
         height: 350px;
     }
 
-    .contact_section {
-        height: 400px;
+    .contact {
+        height: 50px;
+    }
+
+    .form {
+        height: 300px;
+    }
+
+    .form-button {
+        height: 50px;
     }
 
     .footer_top {
