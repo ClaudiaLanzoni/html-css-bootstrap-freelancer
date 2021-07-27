@@ -34,36 +34,20 @@
         border: 2px solid purple;
     }
 
-    .contact {
-        height: 50px;
+    .contact_box {
+        height: 400px;
+        border: 2px solid purple;
     }
 
-    .form {
-        height: 300px;
-    }
 
-    .form-button {
-        height: 50px;
-    }
 
-    .footer_top {
+    .footer_top_wrap {
         background-color: rgba(58,84,109);
         height: 300px;
     }
 
-    .footer_bottom {
+    .footer_bottom_wrap {
         background-color: rgba(44,62,80);
         height: 50px;
     }
 
-    .contact_section [class^="col-"] {   /*Sezione bordi colorati per distinguere quadrati*/
-        border: 2px solid purple;
-    }
-
-    .footer_top [class^="col-"] {
-        border: 2px solid purple;
-    }
-
-    .footer_bottom [class^="col-"] {
-        border: 2px solid purple;
-    }
