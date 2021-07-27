@@ -6,28 +6,32 @@
     .jumbotron {
         height: 400px;
         background-color: rgba(26,188,156);
-        margin-bottom: 40px;
+    }
+
+    .jumbotron,
+    .portfolio_section,
+    .about_section {
+        margin-bottom: 100px;
     }
 
     .portfolio-img {
         height: 300px;
         border: 2px solid purple;
-        border-radius: 10px;
-       
+        border-radius: 10px;  
     }
 
     .portfolio_header {
-        height: 150px;
+        height: 100px;
     }
 
     
     .about_section {
-        height: 500px;
         background-color: rgba(26,188,156);
     }
 
-    .about_section>[class^="col-md"] {
+    .about_box {
         height: 350px;
+        border: 2px solid purple;
     }
 
     .contact {
@@ -53,10 +57,6 @@
     }
 
     .contact_section [class^="col-"] {   /*Sezione bordi colorati per distinguere quadrati*/
-        border: 2px solid purple;
-    }
-
-    .about_section [class^="col-"] {   
         border: 2px solid purple;
     }
 
