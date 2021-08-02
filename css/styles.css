@@ -35,7 +35,7 @@
         background-color: white;
     }
 
-    .jumbotron,
+    .jumbotron_section,
     .portfolio_section {
         margin-bottom: 100px;
     }
@@ -48,6 +48,11 @@
         height: 100%;
         width: 100%;
         border-radius: 10px; 
+    }
+
+    .portfolio_section .div_line,
+    .contact_section .div_line {
+        background-color: rgba(58,84,109);
     }
 
     .portfolio_header {
