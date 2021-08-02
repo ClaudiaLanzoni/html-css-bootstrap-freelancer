@@ -12,12 +12,48 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Fourth navbar example">
+        <div class="container">
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
     
+          <div class="collapse navbar-collapse position-relative" id="navbarsExample04">
+            <ul class="navbar-nav mb-2 mb-md-0 position-absolute end-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
     <!--Jumbotron-->
-    <section class="jumbotron">
-        <div class="row">     
-            <div class="col-12"></div>
+    <section class="jumbotron_section">
+        <div class="container">
+            <div class="row text-white">     
+                <div class="col-12 text-center py-5">
+                    <div class="img_container mb-2">
+                        <img src="img/avatar.svg" alt="Avatar image">
+                    </div>
+                    <h1 class="mb-3">Start Bootstrap</h1>
+                    <div class="div_line_container mb-3">
+                        <div class="div_line"></div>
+                        <i class="fas fa-star"></i>
+                        <div class="div_line"></div>
+                    </div>
+                    <h4>Graphic artist - Web designer - Illustrator</h4>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -30,26 +66,43 @@
                 <div class="row gx-4 gy-4">
                     <div class="row portfolio_header">
                         <div class="col-12 text-center">
-                            <h2>PORTFOLIO</h2>
+                            <h1>PORTFOLIO</h1>
+                        </div>
+                        <div class="div_line_container mb-3">
+                            <div class="div_line"></div>
+                            <i class="fas fa-star"></i>
+                            <div class="div_line"></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="portfolio-img"></div>
+                        <div class="portfolio-img">
+                            <img src="img/cabin.png" alt="Immagine casa">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="portfolio-img"></div>
+                        <div class="portfolio-img">
+                            <img src="img/cake.png" alt="Immagine torta">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="portfolio-img"></div>
+                        <div class="portfolio-img">
+                            <img src="img/circus.png" alt="Immagine tendone circo">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="portfolio-img"></div>
+                        <div class="portfolio-img">
+                            <img src="img/game.png" alt="Immagine joystick">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="portfolio-img"></div>
+                        <div class="portfolio-img">
+                            <img src="img/safe.png" alt="Immagine cassaforte">
+                        </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="portfolio-img"></div>
+                        <div class="portfolio-img">
+                            <img src="img/submarine.png" alt="Immagine sottomarino">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -59,77 +112,87 @@
         
         <section class="about_section">
             <div class="container">
-                <div class="row">     
-                    <div class="col-12 text-center">
-                        <h2>ABOUT</h2>
+                <div class="row text-center pt-5 pb-4 text-white">     
+                    <div class="col-12">
+                        <h1>ABOUT</h1>
+                        <div class="div_line_container mb-3">
+                            <div class="div_line"></div>
+                            <i class="fas fa-star"></i>
+                            <div class="div_line"></div>
+                        </div>
                     </div>
                 
-                    <div class="row gy-4">
-                        <div class="col-12 col-md-4 offset-md-2 col-lg-5 offset-lg-1">
-                            <div class="about_box"></div>
-                        </div>
-                        
-                        <div class="col-12 col-md-4 col-lg-5">
-                            <div class="about_box"></div>
-                        </div>
-                    </div>   
-
-                    <div class="row">
-                        <div class="col-12">
-                            <button></button>
-                        </div>
+                    <div class="col-12 col-md-6 gy-4 text-start">
+                        <p>Freelancer is a free Bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
                     </div>
+                    
+                    <div class="col-12 col-md-6 gy-4 text-start mb-3 text-start">
+                        <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                    </div>
+        
+                    <div class="col-12">
+                        <button type="button" class="btn text-white"><i class="fas fa-download"></i>Download</button>
+                    </div>
+                 
                 </div>  
             </div>
         </section>
 
         <!--Contact section-->
-
-        <div class="container">
+        <div class="contact_section">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1>CONTACT ME</h1>
+                        <div class="div_line_container mb-3">
+                            <div class="div_line"></div>
+                            <i class="fas fa-star"></i>
+                            <div class="div_line"></div>
+                        </div>
+                    </div>
             
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2>CONTACT ME</h2>
-                </div>
-            </div>  
-
-            <div class="row">
-                <div class="col-12 col-md-8 offset-md-2 col-lg-10 offset-lg-1">
-                    <div class="contact_box"></div>
+                    <div class="col-10">
+                        <div>Name</div>
+                        <div class="div_line_long"></div>
+                        <div>Email Address</div>
+                        <div class="div_line_long"></div>
+                        <div>Phone number</div>
+                        <div class="div_line_long"></div>
+                        <div>Message</div>
+                        <div class="div_line_long my_mt_150"></div>
+                        <button type="button" class="btn text-white">Send</button>
+                    </div>
                 </div>
             </div>
-
         </div>
-
-
     </main>
 
     <!--Footer-->
     <footer> 
-        <section class="footer_top_wrap">        
+        <section class="footer_top">        
             <div class="container">
-                <div class="row">
-                    <div class="col-10 col-md-4">
-                        <h3></h3>
+                <div class="row text-white text-center">
+                    <div class="col-12 col-md-4 mb-3">
+                        <h4>LOCATION</h4>
+                        <p> 2215 John Daniel Drive Clark, <br> MO 54243</p>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h4>AROUND THE WEB</h4>
                         <p></p>
                     </div>
-                    <div class="col-10 col-md-4">
-                        <h3></h3>
-                        <p></p>
-                    </div>
-                    <div class="col-10 col-md-4">
-                        <h3></h3>
-                        <p></p>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h4>ABOUT FREELANCER</h4>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <span class="jumbo_bg_color">Start Bootstrap</span>.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="footer_bottom_wrap">
+        <section class="footer_bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <h3></h3>
+                    <div class="col-12 text-center text-white">
+                        <p>Copyright Your Website 2019</p>
                     </div>
                 </div>
             </div>

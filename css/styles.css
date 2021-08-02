@@ -3,51 +3,97 @@
         background-color: rgba(44,62,80);
     }
 
-    .jumbotron {
-        height: 400px;
+    h1 {
+        font-size: 3em;
+    }
+
+    h1, h4 {
+        text-transform: uppercase;
+    }
+
+    .jumbotron_section {
         background-color: rgba(26,188,156);
     }
 
+    .img_container {
+        display: inline-block;
+        width: 20%;
+    }
+
+    .img_container img {
+        width: 100%;
+    }
+
+    .div_line_container div {
+        display: inline-block;
+    }
+
+    .div_line {
+        height: 4px;
+        width: 140px;
+        border-radius: 10px;
+        background-color: white;
+    }
+
     .jumbotron,
-    .portfolio_section,
-    .about_section {
+    .portfolio_section {
         margin-bottom: 100px;
     }
 
     .portfolio-img {
-        height: 300px;
-        border: 2px solid purple;
-        border-radius: 10px;  
+        height: 100%;
+    }
+
+    .portfolio-img img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px; 
     }
 
     .portfolio_header {
         height: 100px;
     }
-
     
     .about_section {
         background-color: rgba(26,188,156);
     }
 
-    .about_box {
-        height: 350px;
-        border: 2px solid purple;
+    .about_section button {
+        background-color: transparent;
+        border-color: white;
     }
 
-    .contact_box {
-        height: 400px;
-        border: 2px solid purple;
+    .div_line_long {
+        height: 1px;
+        width: 100%;
+        background-color:gray;
+        margin: 15px 0 15px 0;
     }
 
+    .contact_section {
+        padding: 80px 0 70px 0;
+    }
 
+    .contact_section button{
+        background-color: rgba(26,188,156);
+        border-color: rgba(26,188,156);
+    }
 
-    .footer_top_wrap {
+    .footer_top {
         background-color: rgba(58,84,109);
-        height: 300px;
+        padding: 50px 0 30px 0;
     }
 
-    .footer_bottom_wrap {
+    .footer_bottom {
         background-color: rgba(44,62,80);
-        height: 50px;
+        padding: 20px 0 10px 0;
+    }
+
+    .my_mt_150 {
+        margin-top: 150px;
+    }
+
+    .jumbo_bg_color {
+        color: rgba(26,188,156);
     }
 
