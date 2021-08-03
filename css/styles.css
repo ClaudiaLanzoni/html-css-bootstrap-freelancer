@@ -11,10 +11,6 @@
         text-transform: uppercase;
     }
 
-    .jumbotron_section {
-        background-color: rgba(26,188,156);
-    }
-
     .img_container {
         height: 200px;
     }
@@ -104,4 +100,9 @@
         border-radius: 50%;
         border: 1px solid white;
     }
+
+    #jumbotron_section {
+        background-color: rgba(26,188,156);
+    }
+
 
